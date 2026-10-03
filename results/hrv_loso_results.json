@@ -1,0 +1,358 @@
+{
+  "Logistic Regression": {
+    "mean_auc": 0.6618367905825117,
+    "std_auc": 0.2133209521913986,
+    "median_auc": 0.7097701149425287,
+    "n_subjects_evaluated": 34,
+    "per_subject": [
+      {
+        "participant": 2,
+        "auc": 0.25,
+        "n_windows": 5
+      },
+      {
+        "participant": 3,
+        "auc": 0.3571428571428572,
+        "n_windows": 22
+      },
+      {
+        "participant": 4,
+        "auc": 0.725,
+        "n_windows": 28
+      },
+      {
+        "participant": 5,
+        "auc": 0.6675824175824175,
+        "n_windows": 41
+      },
+      {
+        "participant": 6,
+        "auc": 0.7859848484848484,
+        "n_windows": 49
+      },
+      {
+        "participant": 7,
+        "auc": 0.810483870967742,
+        "n_windows": 39
+      },
+      {
+        "participant": 8,
+        "auc": 0.7577639751552794,
+        "n_windows": 37
+      },
+      {
+        "participant": 9,
+        "auc": 0.5416666666666666,
+        "n_windows": 31
+      },
+      {
+        "participant": 10,
+        "auc": 0.7,
+        "n_windows": 21
+      },
+      {
+        "participant": 11,
+        "auc": 0.3905325443786982,
+        "n_windows": 39
+      },
+      {
+        "participant": 12,
+        "auc": 0.8602941176470588,
+        "n_windows": 25
+      },
+      {
+        "participant": 13,
+        "auc": 0.768472906403941,
+        "n_windows": 43
+      },
+      {
+        "participant": 14,
+        "auc": 0.496,
+        "n_windows": 30
+      },
+      {
+        "participant": 15,
+        "auc": 0.6666666666666666,
+        "n_windows": 11
+      },
+      {
+        "participant": 16,
+        "auc": 0.5277777777777778,
+        "n_windows": 13
+      },
+      {
+        "participant": 17,
+        "auc": 0.0,
+        "n_windows": 6
+      },
+      {
+        "participant": 18,
+        "auc": 0.7222222222222223,
+        "n_windows": 18
+      },
+      {
+        "participant": 19,
+        "auc": 0.8125,
+        "n_windows": 26
+      },
+      {
+        "participant": 20,
+        "auc": 0.6888888888888889,
+        "n_windows": 21
+      },
+      {
+        "participant": 21,
+        "auc": 0.8809523809523809,
+        "n_windows": 27
+      },
+      {
+        "participant": 22,
+        "auc": 0.8571428571428572,
+        "n_windows": 8
+      },
+      {
+        "participant": 23,
+        "auc": 0.9555555555555556,
+        "n_windows": 14
+      },
+      {
+        "participant": 24,
+        "auc": 0.7195402298850575,
+        "n_windows": 44
+      },
+      {
+        "participant": 25,
+        "auc": 0.9333333333333333,
+        "n_windows": 16
+      },
+      {
+        "participant": 26,
+        "auc": 0.5555555555555556,
+        "n_windows": 9
+      },
+      {
+        "participant": 27,
+        "auc": 0.7791666666666668,
+        "n_windows": 34
+      },
+      {
+        "participant": 28,
+        "auc": 0.25,
+        "n_windows": 4
+      },
+      {
+        "participant": 29,
+        "auc": 0.6328125,
+        "n_windows": 24
+      },
+      {
+        "participant": 30,
+        "auc": 0.5833333333333334,
+        "n_windows": 10
+      },
+      {
+        "participant": 31,
+        "auc": 0.9506172839506173,
+        "n_windows": 33
+      },
+      {
+        "participant": 32,
+        "auc": 0.6484375,
+        "n_windows": 24
+      },
+      {
+        "participant": 33,
+        "auc": 0.8053333333333333,
+        "n_windows": 40
+      },
+      {
+        "participant": 34,
+        "auc": 0.6035087719298246,
+        "n_windows": 53
+      },
+      {
+        "participant": 35,
+        "auc": 0.8181818181818181,
+        "n_windows": 20
+      }
+    ]
+  },
+  "Random Forest": {
+    "mean_auc": 0.6550434245820391,
+    "std_auc": 0.21641404561973215,
+    "median_auc": 0.6958095238095239,
+    "n_subjects_evaluated": 34,
+    "per_subject": [
+      {
+        "participant": 2,
+        "auc": 0.75,
+        "n_windows": 5
+      },
+      {
+        "participant": 3,
+        "auc": 0.3660714285714286,
+        "n_windows": 22
+      },
+      {
+        "participant": 4,
+        "auc": 0.66875,
+        "n_windows": 28
+      },
+      {
+        "participant": 5,
+        "auc": 0.4697802197802198,
+        "n_windows": 41
+      },
+      {
+        "participant": 6,
+        "auc": 0.7632575757575758,
+        "n_windows": 49
+      },
+      {
+        "participant": 7,
+        "auc": 0.9274193548387097,
+        "n_windows": 39
+      },
+      {
+        "participant": 8,
+        "auc": 0.7142857142857143,
+        "n_windows": 37
+      },
+      {
+        "participant": 9,
+        "auc": 0.4642857142857143,
+        "n_windows": 31
+      },
+      {
+        "participant": 10,
+        "auc": 0.6111111111111112,
+        "n_windows": 21
+      },
+      {
+        "participant": 11,
+        "auc": 0.5177514792899408,
+        "n_windows": 39
+      },
+      {
+        "participant": 12,
+        "auc": 0.9191176470588235,
+        "n_windows": 25
+      },
+      {
+        "participant": 13,
+        "auc": 0.7610837438423647,
+        "n_windows": 43
+      },
+      {
+        "participant": 14,
+        "auc": 0.52,
+        "n_windows": 30
+      },
+      {
+        "participant": 15,
+        "auc": 0.8,
+        "n_windows": 11
+      },
+      {
+        "participant": 16,
+        "auc": 0.5,
+        "n_windows": 13
+      },
+      {
+        "participant": 17,
+        "auc": 0.0,
+        "n_windows": 6
+      },
+      {
+        "participant": 18,
+        "auc": 0.7777777777777778,
+        "n_windows": 18
+      },
+      {
+        "participant": 19,
+        "auc": 0.7916666666666666,
+        "n_windows": 26
+      },
+      {
+        "participant": 20,
+        "auc": 0.6111111111111112,
+        "n_windows": 21
+      },
+      {
+        "participant": 21,
+        "auc": 0.8174603174603174,
+        "n_windows": 27
+      },
+      {
+        "participant": 22,
+        "auc": 1.0,
+        "n_windows": 8
+      },
+      {
+        "participant": 23,
+        "auc": 0.9333333333333333,
+        "n_windows": 14
+      },
+      {
+        "participant": 24,
+        "auc": 0.8298850574712644,
+        "n_windows": 44
+      },
+      {
+        "participant": 25,
+        "auc": 0.33333333333333337,
+        "n_windows": 16
+      },
+      {
+        "participant": 26,
+        "auc": 0.9444444444444445,
+        "n_windows": 9
+      },
+      {
+        "participant": 27,
+        "auc": 0.8625,
+        "n_windows": 34
+      },
+      {
+        "participant": 28,
+        "auc": 0.5,
+        "n_windows": 4
+      },
+      {
+        "participant": 29,
+        "auc": 0.453125,
+        "n_windows": 24
+      },
+      {
+        "participant": 30,
+        "auc": 0.8333333333333334,
+        "n_windows": 10
+      },
+      {
+        "participant": 31,
+        "auc": 0.5,
+        "n_windows": 33
+      },
+      {
+        "participant": 32,
+        "auc": 0.3671875,
+        "n_windows": 24
+      },
+      {
+        "participant": 33,
+        "auc": 0.6773333333333333,
+        "n_windows": 40
+      },
+      {
+        "participant": 34,
+        "auc": 0.5385964912280702,
+        "n_windows": 53
+      },
+      {
+        "participant": 35,
+        "auc": 0.7474747474747475,
+        "n_windows": 20
+      }
+    ]
+  }
+}

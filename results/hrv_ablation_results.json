@@ -1,0 +1,27 @@
+{
+  "Time-domain only": {
+    "n_features": 6,
+    "mean_auc": 0.6222279969398162,
+    "std_auc": 0.09334075826503967
+  },
+  "Frequency-domain only": {
+    "n_features": 4,
+    "mean_auc": 0.5480744808268473,
+    "std_auc": 0.03700860237106893
+  },
+  "Non-linear only": {
+    "n_features": 3,
+    "mean_auc": 0.5199342520432741,
+    "std_auc": 0.06322938801027307
+  },
+  "Time + Frequency": {
+    "n_features": 10,
+    "mean_auc": 0.6185623333178383,
+    "std_auc": 0.07165795273647943
+  },
+  "All 13 features": {
+    "n_features": 13,
+    "mean_auc": 0.6279163035083618,
+    "std_auc": 0.07091000983268779
+  }
+}

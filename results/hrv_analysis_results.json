@@ -1,0 +1,102 @@
+{
+  "naive": {
+    "Logistic Regression": {
+      "mean_auc": 0.628662890732813,
+      "std_auc": 0.026574146949747548
+    },
+    "Random Forest": {
+      "mean_auc": 0.6645462713387242,
+      "std_auc": 0.024738550626003646
+    },
+    "Gradient Boosting": {
+      "mean_auc": 0.6133531525817874,
+      "std_auc": 0.042226176388110645
+    }
+  },
+  "leak_free": {
+    "Logistic Regression": {
+      "mean_auc": 0.6242246815185915,
+      "std_auc": 0.015978681770870765
+    },
+    "Random Forest": {
+      "mean_auc": 0.6279163035083618,
+      "std_auc": 0.07091000983268779
+    },
+    "Gradient Boosting": {
+      "mean_auc": 0.5722656055120925,
+      "std_auc": 0.08282137463490913
+    }
+  },
+  "final_heldout": {
+    "auc": 0.6383360972913211,
+    "accuracy": 0.6223404255319149,
+    "f1": 0.42276422764227645
+  },
+  "permutation_importance": [
+    {
+      "feature": "mean_hr",
+      "importance_mean": 0.061898839137645066,
+      "importance_std": 0.03254671243603703
+    },
+    {
+      "feature": "cvnn",
+      "importance_mean": 0.029164363368343414,
+      "importance_std": 0.02190665521618593
+    },
+    {
+      "feature": "pnn50",
+      "importance_mean": 0.013736871199557727,
+      "importance_std": 0.015756241444696888
+    },
+    {
+      "feature": "sdnn",
+      "importance_mean": 0.009406670351943924,
+      "importance_std": 0.012124502865465119
+    },
+    {
+      "feature": "hf_power",
+      "importance_mean": 0.005592408328726673,
+      "importance_std": 0.006605005034469017
+    },
+    {
+      "feature": "lf_power",
+      "importance_mean": 0.005398931269577985,
+      "importance_std": 0.006294802648903261
+    },
+    {
+      "feature": "sd2",
+      "importance_mean": 0.005191634420490084,
+      "importance_std": 0.012029552736995713
+    },
+    {
+      "feature": "lf_hf_ratio",
+      "importance_mean": 0.0003408881518333703,
+      "importance_std": 0.00813505142974039
+    },
+    {
+      "feature": "sdsd",
+      "importance_mean": 4.606596646392254e-05,
+      "importance_std": 0.00422583375799768
+    },
+    {
+      "feature": "sd1",
+      "importance_mean": -0.0012345679012346177,
+      "importance_std": 0.003815519172133823
+    },
+    {
+      "feature": "rmssd",
+      "importance_mean": -0.002648793071678675,
+      "importance_std": 0.0038512497959574702
+    },
+    {
+      "feature": "total_power",
+      "importance_mean": -0.0027501381978994543,
+      "importance_std": 0.010244454707901435
+    },
+    {
+      "feature": "sd1_sd2_ratio",
+      "importance_mean": -0.009830477243412601,
+      "importance_std": 0.008549133493527757
+    }
+  ]
+}
